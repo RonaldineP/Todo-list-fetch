@@ -47,7 +47,7 @@ const Home = () => {
     <div className="text-center">
       <h1 className="text-center">TODOS</h1>
       <div className="notePad">
-        <ul className="w-100">
+        <ul style={{listStyleType:"none",marginTop:"1rem"}}>
           <li>
             <input
               type="text"
